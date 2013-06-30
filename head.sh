@@ -1,5 +1,6 @@
 #!/bin/bash
 #	head
 
-count=$1
-sed ${count}q "$2"
+count=$(echo $1 | sed -e 's/^-//')
+shift
+sed ${count}q "$@"
