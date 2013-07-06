@@ -1,4 +1,4 @@
-#! /bin/sh -
+#! /bin/bash -
 #
 # Search for one or more ordinary files or file patterns on a search
 # path defined by a specified environment variable.
